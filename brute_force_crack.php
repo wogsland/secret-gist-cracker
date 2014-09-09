@@ -17,7 +17,6 @@ if (isset($argv[1])) {
   while ($found == 0) {
 
     // get the random string to test as a secret gist
-    //$characters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
     $characters = 'abcdefghijklmnopqrstuvwxyz0123456789'; // so ONLY 36^20 possibilities!
     $string = '';
     $random_string_length = 20; //actually gists all seem to have the same length code
@@ -56,6 +55,6 @@ if (isset($argv[1])) {
 
 } else {
   echo "usage:
-        php crack.php github_username
-        php crack.php github_username secret_gist_destination_file (defaults to gist.txt otherwise)\n";
+        php brute_force_crack.php github_username
+        php brute_force_crack.php github_username secret_gist_destination_file (defaults to gist.txt otherwise)\n";
 }
