@@ -1,7 +1,9 @@
 Secret Gist Cracker
 ===================
 
-_An exercise in futility._
+_An exercise in futility..._
+
+[![Code Climate](https://codeclimate.com/github/wogsland/secret-gist-cracker/badges/gpa.svg)](https://codeclimate.com/github/wogsland/secret-gist-cracker)
 
 __The Problem__
 
